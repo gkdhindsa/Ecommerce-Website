@@ -7,6 +7,17 @@ h1{
     margin: 0;
     font-weight: 500;
 }
+h3{
+    font-size: 1.5rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 400;
+}
+hr{
+    height: 0px;
+    outline: none;
+    border-top: 0.1pt solid black;
+    border-bottom: 0;
+}
 h2{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
@@ -140,4 +151,92 @@ body {
     position: absolute;
     right: 15vw;
     height: 25vh;
+}
+#section-3{
+    margin-top: 120vh;
+}
+.stroke-3 svg{
+    position: absolute;
+    width: 10rem;
+    left: 3vw;
+}
+.container-3{
+    margin: 0 15vw;
+}
+.black{
+    position: absolute;
+    background-color: #212121;
+    height: 70vh;
+   width: 100%;
+    top: 15vh;
+    color: white;
+    padding: 4rem 5rem;
+}
+.black-content h2{
+    margin: 0;
+    padding: 0;
+}
+.btn-green{
+    color: #CBDBC5;
+    background-color: transparent;
+    border: 2px solid #CBDBC5;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 0.7rem;
+    width: 150px;
+    white-space: nowrap;
+}
+.black-content{
+    display: flex;
+    padding: 0 4rem;
+    justify-content: space-between;
+    
+}
+.green-3{
+    background-color: #CBDBC5;
+    height: 50vh;
+    position: absolute;
+    width: 50vw;
+    top: 40vh;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0.5rem solid white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.stroke-31 img{
+    height: 40vh;
+    width: auto;
+}
+.btn-green{
+    background-color: #546650;
+    color: white;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.lines-3 svg{
+    position: absolute;
+    top: 35vh;
+    left: 35vw;
+    width: 40vw;
+    z-index: -1;
+}
+.container-4{
+    top: 100vh;
+    margin: 10vw;
+}
+.container-4 > h2{
+    margin:0  10vw;
+}
+.pictures{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.pictures img{
+    height: 250px;
 }

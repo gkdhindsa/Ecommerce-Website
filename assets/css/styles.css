@@ -211,11 +211,13 @@ body {
     height: 40vh;
     width: auto;
 }
-.btn-green{
+.btn-green-2{
     background-color: #546650;
     color: white;
     font-size: 1rem;
     font-weight: 200;
+    outline: none;
+    border: none;
 }
 .lines-3 svg{
     position: absolute;
@@ -239,4 +241,74 @@ body {
 }
 .pictures img{
     height: 250px;
+}
+button{
+    padding: 0.5rem 1rem;
+    min-width: 150px;
+    
+}
+.container-5{
+    margin-top: 120vh;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.contact-card{
+    width: 70vw;
+    padding: 5vw;
+    background-color: #212121;
+    color: white;
+}
+.contact-content{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 10px;
+}
+.grid>div{
+
+}
+.grid>div>h3{
+    margin: 0;
+}
+.heading-text{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.green-text{
+    text-align: right;
+    color: #546650;
+    font-size: 0.7rem;
+
+    justify-self: right;
+ 
+}
+.heading-text>div{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.form-input{
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    color:white;
+    background: inherit;
+    outline: none;
+    border: 0.8px solid white;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+.form-input::placeholder{
+    color: white;
+
 }
